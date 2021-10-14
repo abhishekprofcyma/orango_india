@@ -24,6 +24,7 @@ class _AddressAddViewState extends State<AddressAddView> {
     repo.getCountry(context, Map()).then((value) {
       countryList?.addAll(value.data!.country!);
       setState(() {
+        
       });
     });
   }

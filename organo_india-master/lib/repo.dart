@@ -15,7 +15,7 @@ class Repo {
   Future<RegisterModel> registerUser(
       BuildContext context, Map<String, String> map) async {
     final response = await _apiprovider.post(context, "register", map);
-    return RegisterModel.fromJson(response);``
+    return RegisterModel.fromJson(response);
   }
 
   Future<CountryModel> getCountry(

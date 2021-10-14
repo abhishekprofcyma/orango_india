@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:organo_india/model/address/country_model.dart';
-import 'package:organo_india/screens/register/register_view.dart';
 import 'package:organo_india/screens/widgets/circle_view.dart';
 import 'package:organo_india/repo.dart';
 

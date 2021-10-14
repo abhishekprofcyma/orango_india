@@ -20,10 +20,10 @@ class _AddressAddViewState extends State<AddressAddView> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    repo.getCountry(context, Map()).then((value) {
-      countryList?.addAll(value.data!.country!);
-      setState(() {
-        
+
+    setState(() {
+      repo.getCountry(context, Map()).then((value) {
+        countryList?.addAll(value.data!.country!);
       });
     });
   }
